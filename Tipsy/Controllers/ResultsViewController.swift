@@ -13,6 +13,8 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var settingsLabel: UILabel!
     
+    var result: Float?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
